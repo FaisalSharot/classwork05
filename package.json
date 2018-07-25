@@ -1,0 +1,28 @@
+
+{
+  "name": "classwork8",
+  "version": "1.0.0",
+  "description": "simple node server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaisalSharot/classwork5.git"
+  },
+  "author": "RI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FaisalSharot/issues"
+  },
+  "homepage": "https://github.com/FaisalSharot/classwork5#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.0"
+  }
+}
