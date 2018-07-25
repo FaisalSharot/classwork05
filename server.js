@@ -3,10 +3,10 @@
   var bodyParser = require('body-parser');
   var mongo = require('mongodb');
   
-  var db, uri =  "mongodb://+process.env.IP+":27017";
+  var db, uri =  "mongodb://"+process.env.IP+":27017";
   
-  mongo.MOngoClient.connect(uri,
-        {usernewUrlParser: true},
+  mongo.MongoClient.connect(uri,
+        {userNewUrlParser: true},
           function(err,client){
             if(err){
               console.log("could not connect MongoDB");
